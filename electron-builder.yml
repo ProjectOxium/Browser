@@ -1,0 +1,25 @@
+appId: com.oxium.browser
+productName: Oxium Browser
+copyright: Copyright (c) 2026 Oxium Browser
+directories:
+  output: release
+win:
+  target:
+    - nsis
+  icon: resources/icon.png
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Oxium Browser
+  installerIcon: resources/icon.ico
+  uninstallerIcon: resources/icon.ico
+asarUnpack:
+  - dist-electron/webview-preload.js
+files:
+  - dist
+  - dist-electron
+  - package.json
+extraMetadata:
+  main: dist-electron/main.js

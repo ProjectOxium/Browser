@@ -1,9 +1,5 @@
 # Oxium Browser
 
-**Download:** [OxiumBrowserInstaller.exe](https://github.com/ProjectOxium/Browser/releases/download/v1.0.0/OxiumBrowserInstaller.exe)
-
----
-
 A privacy-focused desktop web browser built on Electron + React with built-in ad blocking, fingerprinting protection, and a custom dark-themed UI.
 
 ## Features
@@ -42,12 +38,6 @@ A privacy-focused desktop web browser built on Electron + React with built-in ad
 - **Developer Mode** — Load unpacked extensions from local folders
 - **Per-Extension Toggle** — Enable/disable individual extensions with toolbar integration
 
-### UI
-- **Frameless Dark Theme** — Custom title bar with minimize, maximize, and close controls
-- **Keyboard Shortcuts** — Full set for power users (Ctrl+T, Ctrl+W, Ctrl+Tab, Ctrl+H, Ctrl+J, Ctrl+D, etc.)
-- **Custom Scrollbars** — Dark-themed native scrollbar styling
-- **Context Menus** — Right-click actions for links, text selection, and page navigation
-
 ## Tech Stack
 
 | Layer | Technology |
@@ -59,9 +49,19 @@ A privacy-focused desktop web browser built on Electron + React with built-in ad
 | Styling | Tailwind CSS 3 |
 | Ad Blocking | @ghostery/adblocker-electron |
 
-## Requirements
+## Development
 
-- Windows 10 or later (64-bit)
-- Administrator privileges (for installation only)
+```bash
+npm install
+npm run dev
+```
+
+## Build
+
+```bash
+npm run build
+```
+
+Output appears in `release/`.
 
 > v0.1.0 · Project Oxium · 2026
