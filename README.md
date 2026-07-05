@@ -2,6 +2,8 @@
 
 A privacy-focused desktop web browser built on Electron + React with built-in ad blocking, fingerprinting protection, and a custom dark-themed UI.
 
+**[Download OxiumBrowserInstaller.exe](https://github.com/ProjectOxium/Browser/releases/download/v1.0.0/OxiumBrowserInstaller.exe)** — v1.0.0 · Windows 10+ · 64-bit
+
 ## Features
 
 ### Privacy & Security
